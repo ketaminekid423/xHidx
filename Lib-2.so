@@ -1,0 +1,5 @@
+{ input:GPS:HID }
+  { output:logcat#}
+  { input:wifiAWARE:HID }
+{output*sum=coor°LAT;°LONG (logcat.trace)|-BluetoothLE}
+
